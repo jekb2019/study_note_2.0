@@ -1,0 +1,35 @@
+body{
+  background-color: #f2f2f2;
+  width: 80%;
+  position: relative;
+  top: 10px;
+  margin: auto;
+
+
+}
+#top_inner{
+  text-align: center;
+  border: solid black 1px;
+  margin-bottom: 20px;
+}
+#mid_inner{
+}
+
+#content, #sidebar{
+  display: inline-block;
+  border: solid black 1px;
+}
+#sidebar{
+  float: left;
+  margin-right: 10px;
+  width: 15%;
+}
+#content{
+  background-color: white;
+  float: right;
+  width: 82%;
+}
+#table_of_contents{
+  list-style: none;
+  padding: 20px;
+}
