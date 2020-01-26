@@ -4,9 +4,21 @@ body{
   position: relative;
   top: 10px;
   margin: auto;
-
-
 }
+#web_title, #table_of_contents li a{
+  color: black;
+  text-decoration: none;
+}
+
+#table_of_contents li a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.topic ul li:hover{
+  color:blue;
+}
+
 #top_inner{
   text-align: center;
   border: solid black 1px;
@@ -14,7 +26,6 @@ body{
 }
 #mid_inner{
 }
-
 #content, #sidebar{
   display: inline-block;
   border: solid black 1px;
@@ -22,12 +33,13 @@ body{
 #sidebar{
   float: left;
   margin-right: 10px;
-  width: 15%;
+  width: 17%;
 }
 #content{
   background-color: white;
+  padding-left: 2%;
   float: right;
-  width: 82%;
+  width: 79%;
 }
 #table_of_contents{
   list-style: none;
