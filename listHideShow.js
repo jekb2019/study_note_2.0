@@ -2,10 +2,10 @@ function showHideList(id){
   var list = document.getElementById(id+"_sublist");
   var text = document.getElementById(id+"_txt");
   if(list.style.display == "none"){
-    list.style.display = "block";
-    text.innerHTML = "-";
+    $("#"+id).next().next().css("display","block");
+    $("#"+id).children("div").text("-");
   }else{
-    list.style.display = "none";
-    text.innerHTML = "+";
+    $("#"+id).next().next().css("display","none");
+    $("#"+id).children("div").text("+");
   }
 }
