@@ -1,6 +1,5 @@
 function showHideList(id){
   var list = document.getElementById(id+"_sublist");
-  var text = document.getElementById(id+"_txt");
   if(list.style.display == "none"){
     $("#"+id).next().next().css("display","block");
     $("#"+id).children("div").text("-");
