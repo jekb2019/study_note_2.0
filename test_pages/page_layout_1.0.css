@@ -12,11 +12,15 @@ h1{
   float: left;
 }
 .content{
-  float: left;
-  width: 50%;
+  margin: 20px auto;
+  width: 65%;
 }
 .right_sidebar{
   float: right;
+}
+.left_sidebar ul, .right_sidebar ul{
+  padding: 10px;
+  list-style: none;
 }
 .footer{
   clear: both;
