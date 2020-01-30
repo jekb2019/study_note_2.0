@@ -1,10 +1,10 @@
 h1{
   text-align: center;
 }
-.container, .header, .left_sidebar, .content, .right_sidebar, .footer{
+.container, header, .left_sidebar, .content, .right_sidebar, footer{
   border:1px solid lightgrey;
 }
-.header, .left_sidebar, .content, .right_sidebar, .footer{
+header, .left_sidebar, .content, .right_sidebar, footer{
   padding: 20px;
   margin:20px;
 }
@@ -22,21 +22,21 @@ h1{
   padding: 10px;
   list-style: none;
 }
-.footer{
+footer{
   clear: both;
   column-width: 300px;
   column-rule: 2px solid lightgrey;
   height: 200px;
 }
-.footer div{
+footer div{
   break-before: column;
   padding: 20px;
 }
 
-.footer a{
+footer a{
   text-decoration: none;
   color: black;
 }
-.footer a:hover{
+footer a:hover{
   color: blue;
 }
