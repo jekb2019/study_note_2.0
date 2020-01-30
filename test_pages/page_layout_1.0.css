@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+}
+.container, .header, .left_sidebar, .content, .right_sidebar, .footer{
+  border:1px solid lightgrey;
+}
+.header, .left_sidebar, .content, .right_sidebar, .footer{
+  padding: 20px;
+  margin:20px;
+}
+.left_sidebar{
+  float: left;
+}
+.content{
+  float: left;
+  width: 50%;
+}
+.right_sidebar{
+  float: right;
+}
+.footer{
+  clear: both;
+
+}
+.footer div{
+  break-before: column;
+}
+.footer a{
+  text-decoration: none;
+  color: black;
+}
+.footer a:hover{
+  color: blue;
+}
