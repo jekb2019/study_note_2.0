@@ -20,11 +20,15 @@ h1{
 }
 .footer{
   clear: both;
-
+  column-width: 300px;
+  column-rule: 2px solid lightgrey;
+  height: 200px;
 }
 .footer div{
   break-before: column;
+  padding: 20px;
 }
+
 .footer a{
   text-decoration: none;
   color: black;
