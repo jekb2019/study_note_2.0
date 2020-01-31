@@ -24,19 +24,32 @@ header, .left_sidebar, .content, .right_sidebar, footer{
 }
 footer{
   clear: both;
-  column-width: 300px;
-  column-rule: 2px solid lightgrey;
-  height: 200px;
 }
-footer div{
-  break-before: column;
-  padding: 20px;
+.footer_container{
+  height: 150px;
+  width: 935px;
+  margin: auto;
 }
-
-footer a{
+.footer_container a{
   text-decoration: none;
   color: black;
 }
-footer a:hover{
+.footer_container a:hover{
   color: blue;
+}
+.footer_container dd{
+  margin-left: 0;
+}
+.footer_container dl{
+  display: inline-block;
+}
+.footer_container dt{
+  font-weight: bold;
+}
+.information, .contact, .author_SNS, .help{
+  width: 180px;
+  float: left;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
 }
